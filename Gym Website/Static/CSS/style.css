@@ -1,0 +1,122 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background: url(../images/gymbackground.jpg);
+}
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 60px;
+  top: 20px;
+}
+.left img {
+  width: 100px;
+  background: transparent;
+}
+.left div {
+  line-height: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.mid {
+  display: block;
+  width: 60%;
+  margin: 30px auto;
+}
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 25px;
+}
+.navbar li a {
+  color: wheat;
+  text-decoration: none;
+  padding: 20px 50px;
+}
+.navbar li a:hover,
+.navbar li a.passive {
+  text-decoration: underline;
+  color: red;
+}
+.right {
+  position: absolute;
+  right: 35px;
+  top: 40px;
+  display: inline-block;
+}
+.btn {
+  margin: 0px 9px;
+  background-color: black;
+  color: whitesmoke;
+  padding: 5px 10px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(191, 239, 251);
+  color: rgb(125, 185, 238);
+  padding: 5px 10px;
+  border: 2px solid gray;
+  border-radius: 25px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container {
+  border: 2px solid white;
+  margin: 100px 460px;
+  padding: 50px;
+  width: 30%;
+  border-radius: 60px;
+}
+.form-group {
+  background: rgba(255, 255, 255, 0.2); 
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.245);
+  border-radius: 5px;
+  padding: 10px;
+  backdrop-filter: blur(5px); 
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  width: 380px;
+  height: 45px;
+  font-size: 16px;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin-bottom: 15px;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+form button {
+  width: 160px;
+  height: 45px;
+  font-size: 18px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 10px auto 0;
+  display: block; /* ensures it's centered if inside form */
+}
+
+input:hover{
+  color: white;
+  background-color: rgb(83, 58, 94);
+}
